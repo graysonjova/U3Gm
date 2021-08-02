@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../img/ugm.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img{
+    float: left;
+    width: 120px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 45px;
+    margin-right: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    transition: 0.5s ease;
+    font-size: 14pt;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+    opacity: 50%;
+    opacity: 0.6;
+}
+
+img{
+    width: 730px;
+    margin-top: 120px;
+}
+
+.curhat{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button{
+    border: 3px solid white;
+    padding: 5px 30px;
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 16pt;
+    font-weight: 550;
+}
+
+.button:hover{
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+    transition: 0.2s ease;
+}
